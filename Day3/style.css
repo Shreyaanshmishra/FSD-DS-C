@@ -1,0 +1,35 @@
+/* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#myid{
+    background-color: aqua;
+    font-size: 20px;
+}
+#myid{
+    background-color: rgb(11, 41, 41);
+    font-size: 10px;}
+    
+.myclass {
+    color: aquamarine;
+
+} */
+/* div p{
+    background-color: beige;
+    font-size: 30px;
+} */
+
+div+p{
+    background-color: azure;
+    font-size: 40px;
+}
+/* div>p{
+    background-color:blue;
+    font-size: 40px;
+}div~p{
+    background-color: rgb(3, 29, 29);
+    font-size: 40px;
+} */
