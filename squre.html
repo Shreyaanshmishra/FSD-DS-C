@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #sqare{
+            width: 200px;
+            height: 200px;
+            border: 5px solid green;
+        }
+    </style>
+</head>
+<body>
+<div id = "square"></div>
+<script>
+    let div = document.querySelector('div');
+    div.addEventlistener('mouseover',()=>{div.style.backgroundColor = 'red'});
+    div.addEventlistener('mouseout',()=>{div.style.backgroundColor = 'yellow'});
+</script>
+    
+    
+</body>
+</html>
